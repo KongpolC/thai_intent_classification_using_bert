@@ -2,6 +2,7 @@
 
 This repository contains python code to 
 Finetune BERT for Thai intent classification with GPU on Google Colab using the pretrained model from https://github.com/ThAIKeras/bert which uses data from Thai Wikipedia. This can be applied to create an advance chatbot which can be integrated with robots, websites, apps and etc.
+
 This project is pretty much similar to https://github.com/KongpolC/Thai-Sentiment-Classification-Using-BERT so, feel free to check thi one out too.
 
 ## Data
