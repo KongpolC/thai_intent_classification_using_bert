@@ -5,16 +5,22 @@ Finetune BERT for Thai intent classification with GPU on Google Colab using the 
 This project is pretty much similar to https://github.com/KongpolC/Thai-Sentiment-Classification-Using-BERT so, feel free to check thi one out too.
 
 ## Data
-Trained on open-source Wongnai restaurant review data. Source: https://github.com/wongnai/wongnai-corpus.git
-  - Input: text review in Thai.
-  - Target: rating in star from 1-5.
+Trained on truevoice-intent dataset which was provided by [TrueVoice](http://www.truevoice.co.th/). This dataset contains text transcriptions from customer service phone calls and there destination intents (TrueVoice's [Mari](http://www.truevoice.co.th/en/true-voice-mari/)). Source: https://github.com/PyThaiNLP/truevoice-intent
+  - Input: phone call text transcriptions in Thai.
+  - Target: phone call intents which includes:
+    - billing and payment
+    - promotions
+    - internet
+    - other queries
+    - international dialing
+    - true money
+    - lost and stolen
   
 ## Transfer Learning Using GPU
 Main processes to fintune BERT in Thai using GPU on Google Colab include:
   - setting up Google Colab runtime with GPU acceleration.
   - installing all required libraries.
   - downloading all required files.
-  - processing and verifying data.
   - tokenizing data using SentencePiece which implements BPE
   - finetuning BERT.
   - testing model's accuracy.
