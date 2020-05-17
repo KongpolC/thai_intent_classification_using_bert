@@ -27,6 +27,9 @@ Main processes to fintune BERT in Thai using GPU on Google Colab include:
   - testing model's accuracy.
   
 ## Result
-accuracy = 0.8921
+2 epochs: accuracy = 0.8921
+
+![confusion_matrix](https://github.com/KongpolC/thai_intent_classification_using_bert/blob/master/images/confusion_matrix.png)
+
   
 
